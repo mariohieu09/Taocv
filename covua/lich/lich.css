@@ -1,0 +1,10 @@
+#bang3 th,#bang3 td,#bang3 tr{
+    border: 4px solid gainsboro;
+    padding:30px;
+}
+#bang3 {
+    border-collapse: collapse;
+    border: 4px solid gainsboro;
+    width: 60%;
+
+}
