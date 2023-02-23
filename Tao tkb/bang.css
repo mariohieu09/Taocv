@@ -1,0 +1,31 @@
+
+
+#bang2 {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid black;
+
+
+
+}
+#bang2 th,#bang2 td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#bang1 {
+    border: hidden;
+
+}
+#s, #r, #e {
+background-color: yellow;
+}
+#t, #nbd, #nkt, #mh {
+    background-color: orange ;
+}
+span {
+    color: blue;
+
+}
