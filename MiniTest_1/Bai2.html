@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input type="number", id="so1"/>
+<input type="number", id="so2"/>
+<button type="button" onclick="cong()" value="+" style="padding: 5px">+</button>
+<button type="button" onclick="tru()" value="-" style="padding: 5px">-</button>
+<button type="button" onclick="nhan()" value="*" style="padding: 5px">*</button>
+<button type="button" onclick="chia()" value="/" style="padding: 5px">/</button>
+<script>
+    function cong(){
+        let so1 = document.getElementById("so1").value;
+        let so2 = document.getElementById("so2").value;
+        tong = parseInt(so1)+ parseInt(so2);
+        document.getElementById("ketqua").innerHTML= tong;
+
+    }
+    function tru(){
+        let so1 = document.getElementById("so1").value;
+        let so2 = document.getElementById("so2").value;
+        hieu = parseInt(so1) - parseInt(so2);
+        document.getElementById("ketqua").innerHTML = hieu;
+    }
+    function nhan(){
+        let so1 = document.getElementById("so1").value;
+        let so2 = document.getElementById("so2").value;
+        tich = parseInt(so1) * parseInt(so2);
+        document.getElementById("ketqua").innerHTML = tich;
+    }
+    function chia() {
+        let so1 = document.getElementById("so1").value;
+        let so2 = document.getElementById("so2").value;
+        thuong = parseInt(so1) / parseInt(so2);
+        document.getElementById("ketqua").innerHTML = thuong;
+    }
+</script>
+<p id="ketqua"></p>
+</body>
+</html>
