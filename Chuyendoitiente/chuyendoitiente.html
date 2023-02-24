@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<table style="width: 30%">
+  <tr>
+    <th>Amount</th>
+    <th>From Currency</th>
+    <th>To Currency</th>
+  </tr>
+  <tr>
+    <td><input id="amount" type="text"/></td>
+    <td><select id="from" style="width: 120px;">
+      <option value="Vnd">Vnd</option>
+      <option value="Usd">Usd</option>
+    </select></td>
+    <td><select id="to" style="width: 120px">
+      <option value="Vnd">Vnd</option>
+      <option value="Usd">Usd</option>
+    </select>
+    <th>
+      <button onclick="ChangeMoney()">Convert</button>
+    </th>
+  </tr>
+
+
+</table>
+<br>
+<p id="Result"></p>
+
+<script src="chuyendoitiente.js">
+
+
+</script>
+</body>
+</html>
